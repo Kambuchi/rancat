@@ -1,0 +1,79 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.App button {
+  margin: 0 5px;
+  height: 40px;
+  width: 200px;
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+  color: black;
+  background-color: khaki;
+  border: none;
+  font-size: 16px;
+  border-radius: 24px;
+  z-index: 1;
+}
+.App .hidden {
+  display: none;
+}
+
+.App span {
+  cursor: pointer;
+}
+.btnd {
+  display: flex;
+}
+.App input {
+  color: khaki;
+  background: #2c2e2e;
+  border-radius: 5vw;
+  border: 0.1em solid #202329;
+  margin: 5px 20vw;
+  padding-left: 1vw;
+  height: 40px;
+  width: 200px;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+}
+
+#customCountry {
+  margin: 5px 20vw;
+  border-radius: 5vw;
+  height: 40px;
+  text-align: center;
+  width: 200px;
+  color: black;
+  background-color: gray;
+}
+
+#catCount {
+  background: #2c2e2e;
+  border-radius: 5vw;
+  border: 0.1em solid #202329;
+  margin: 5px 20vw;
+  padding-left: 1vw;
+  height: 30px;
+  width: 75px;
+  font-size: 12px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-weight: 400;
+  color: khaki;
+  box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
